@@ -1,0 +1,16 @@
+package com.kalaari.entity.db;
+
+@Table(name = "vehicle")
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Where(clause = "deleted=false")
+public class Vehicle extends BaseEntity<Long> {
+
+    @Column(name = "registrationNumber")
+    private String registrationNumber;
+
+    @Column(name = "chasisNumber")
+    private String chasisNumber;
+}

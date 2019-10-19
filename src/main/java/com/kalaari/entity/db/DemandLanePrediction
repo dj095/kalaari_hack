@@ -1,6 +1,6 @@
 package com.kalaari.entity.db;
 
-@Table(name = "demand_center_prediction")
+@Table(name = "demand_lane_prediction")
 @Entity
 @Data
 @NoArgsConstructor
